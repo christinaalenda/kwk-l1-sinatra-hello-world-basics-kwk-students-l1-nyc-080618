@@ -1,6 +1,6 @@
 class App < Sinatra::Base
 
-  get '/' do
+  get '/http://localhost:9393' do
     "Hello, World!"
   end
 
